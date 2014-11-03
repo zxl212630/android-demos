@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+	<ImageView android:id="@+id/custom_adapter_item_img" 
+	    android:contentDescription="@string/imageview_description"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_margin="5sp"/>
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+
+		<TextView android:id="@+id/custom_adapter_item_title" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="#FFFFFFFF"
+			android:textSize="22sp" />
+		<TextView android:id="@+id/custom_adapter_item_info" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="#FFFFFFFF"
+			android:textSize="13sp" />
+		<Button android:id="@+id/custom_adapter_item_btn" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="按钮"
+			android:layout_gravity="bottom|right" />"
+
+	</LinearLayout>
+
+
+</LinearLayout>

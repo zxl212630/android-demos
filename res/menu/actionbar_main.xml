@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.zxl.demos="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/action_search"  
+          android:icon="@android:drawable/ic_menu_search"  
+          android:title="@string/menu_search"
+          android:orderInCategory="1"  
+          com.zxl.demos:showAsAction="ifRoom|collapseActionView"
+          com.zxl.demos:actionViewClass="android.support.v7.widget.SearchView"/>  
+    <item android:id="@+id/action_compose"  
+          android:icon="@android:drawable/ic_menu_compass"
+          android:title="@string/menu_compose"  
+          android:orderInCategory="1"  
+          com.zxl.demos:showAsAction="ifRoom"/>  
+	<item android:id="@+id/action_otherview"  
+          android:title="@string/app_name"  
+          android:icon="@drawable/ic_launcher"  
+          com.zxl.demos:showAsAction="ifRoom|collapseActionView"  
+          com.zxl.demos:actionLayout="@layout/action_view"/> 
+   <item  
+        android:id="@+id/action_share"  
+        android:title="@string/app_name"  
+        com.zxl.demos:actionProviderClass="android.support.v7.widget.ShareActionProvider"  
+        com.zxl.demos:showAsAction="ifRoom"/> 
+</menu>

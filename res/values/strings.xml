@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">开发示例</string>
+    
+    <string name="app_actionbar">Action Bar/Action Bar Tabs</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_compose">Compose</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="table_layout_1_star">*</string>
+    <string name="table_layout_1_open">Open\u2026</string>
+    <string name="imageview_description"></string>    
+    <string name="tab_1">动态</string>
+    <string name="tab_2">群组</string>
+    <string name="tab_3">好友</string>
+    <string name="tab_4">会话</string>
+    
+    <!-- ==================== -->
+    <!-- webview -->
+    <!-- ==================== -->
+    <string name="app_webview_helloworld">Web View/Hello World</string>
+    <string name="app_webview_touch">Web View/Touch and Scroller</string>
+    
+    
+    <!-- ==================== -->
+    <!-- listview -->
+    <!-- ==================== -->
+    <string name="app_listview_arrayadapter">List View/Array Adapter List</string>
+    <string name="app_listview_simplecursoradapter">List View/Simple Cursor Adapter List</string>
+    <string name="app_listview_simpleadapter">List View/Simple Adapter List</string>
+    <string name="app_listview_customadapter">List View/Custom Adapter List</string>
+    <string name="app_listview_pullrefresh">List View/Pull Refresh List</string>
+    <string name="pullrefresh_tips_text">下拉刷新</string>
+    <string name="pullrefresh_update_text">更新于</string>    
+    <string name="app_listview_headerfooter">List View/Header and Footer List</string>   
+    
+
+    <!-- ==================== -->
+    <!-- video -->
+    <!-- ==================== -->
+    <string name="app_video_videoview">Video/Video View</string>
+    
+    <!-- ==================== -->
+    <!-- Native -->
+    <!-- ==================== -->
+    <string name="app_native_Helloworld">Native/Hello World</string>
+    <string name="app_native_packageinfo">Native/Package Info</string>
+    
+    
+    
+</resources>
