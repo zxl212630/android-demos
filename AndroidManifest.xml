@@ -146,7 +146,20 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="com.zxl.intent.SAMPLE_CODE" />
             </intent-filter>
-        </activity>    
+        </activity>
+        
+        <!-- ========================= -->
+        <!-- Slidingmenu -->
+        <!-- ========================= -->
+        <activity 
+            android:name=".slidingmenu.SlidingmenuActivity"
+            android:label="@string/app_slidingmenu_slidingmenu"
+            android:theme="@style/AppTheme">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.zxl.intent.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

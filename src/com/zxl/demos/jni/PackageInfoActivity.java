@@ -66,7 +66,7 @@ public class PackageInfoActivity extends Activity {
 		
 		String signature = JNI.getSignature(this);
 		String text = String.format(Locale.getDefault(), 
-				"签名：%s", JNI.md5(signature));
+				"签名的MD5值：%s", JNI.md5(signature));
 		mTextView.setText(text);
 		
 		setContentView(mTextView);

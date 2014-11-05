@@ -47,6 +47,10 @@
     <string name="app_native_Helloworld">Native/Hello World</string>
     <string name="app_native_packageinfo">Native/Package Info</string>
     
-    
+    <!-- ==================== -->
+    <!-- Slidingmenu -->
+    <!-- ==================== -->    
+    <string name="app_slidingmenu_slidingmenu">Sliding Menu/Slidingmenu Activity</string>
+    <string name="attach">Attach</string>
     
 </resources>
